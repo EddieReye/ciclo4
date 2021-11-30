@@ -34,7 +34,7 @@ function registrar() {
         $.ajax({
             // url del servicio
             // url de prueba =  url: "http://localhost:8080/api/user/all",
-            url: "http://localhost:8080/api/user/new",
+            url: "http://144.22.58.155/api/user/new",
             // tipo de peticion 
             type: 'POST',
             contentType: "application/json",

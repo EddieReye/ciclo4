@@ -21,7 +21,7 @@ function login() {
         $.ajax({
             // url del servicio
             // url de prueba =  url: "http://localhost:8080/api/user/all",
-            url: "http://localhost:8080/api/user/" + email + "/" + password,
+            url: "http://144.22.58.155/api/user/" + email + "/" + password,
             // tipo de peticion 
             type: 'GET',
             // tipo de contenido o de datos a intercambiar que se espera en la respuesta
